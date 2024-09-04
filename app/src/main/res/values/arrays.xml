@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paises">
+        <item>@string/brasil</item>
+        <item>@string/estadosunidos</item>
+        <item>@string/espanha</item>
+        <item>@string/japao</item>
+    </string-array>
+
+    <string-array name="elementos">
+        <item>Água</item>
+        <item>Fogo</item>
+        <item>Planta</item>
+    </string-array>
+</resources>

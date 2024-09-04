@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/etNomeJogador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nomeJogador"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sexoJogador"/>
+
+    <RadioGroup
+        android:id="@+id/rgSexoJogador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbMasculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/masculino" />
+
+        <RadioButton
+            android:id="@+id/rbFeminino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feminino" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spPaises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/paises"/>
+
+    <CheckBox
+        android:id="@+id/cbTermosDeUso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/termosDeUso"/>
+
+    <Button
+        android:id="@+id/btCustomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/customButton"
+        android:text="@string/jogar"
+        android:onClick="iniciarJogo" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ElementaryGame</string>
+    <string name="configuracoes">Settings</string>
+    <string name="opcoes">Options</string>
+    <string name="ultimaJogada">Last Move</string>
+    <string name="jogadaPlayer">You</string>
+    <string name="resultado">Result</string>
+    <string name="jogadaAndroid">Android</string>
+    <string name="nomeJogador">Player Name</string>
+    <string name="sexoJogador">Gender</string>
+    <string name="masculino">Male</string>
+    <string name="feminino">Female</string>
+    <string name="jogar">Play</string>
+    <string name="brasil">Brazil</string>
+    <string name="estadosunidos">United States of America</string>
+    <string name="espanha">Spain</string>
+    <string name="japao">Japan</string>
+    <string name="termosDeUso">I Accept the Use Terms</string>
+    <string name="agua">Water</string>
+    <string name="fogo">Fire</string>
+    <string name="planta">Plant</string>
+    <string name="pais">Country</string>
+    <string name="selecioneElemento">Select your element</string>
+
+</resources>
